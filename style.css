@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+label {
+    font-size: 12px;
+}
+
+.main {
+    max-width: 1400px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    padding: 20px;
+}
+
+.main .calculator {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 600px;
+    min-width: 320px;
+    border-radius: 10px;
+}
+
+.main .calculator .inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.main .calculator .inputs .inputFirstNumber, .inputSecondNumber {
+    width: 50%;
+    padding: 15px;
+    -moz-appearance: textfield;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border: none;
+    border-radius: 10px;
+}
+
+.main .calculator .inputs .inputFirstNumber:hover, .inputSecondNumber:hover {
+    background-color: azure;
+}
+
+.main .calculator .operators {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.main .calculator .operators .operate:hover {
+    background-color: azure;
+}
+
+.main .calculator .operators .operate {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+.main .total {
+    
+    width: 100%;
+    text-align: right;
+    margin: 20px 0px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+
+
